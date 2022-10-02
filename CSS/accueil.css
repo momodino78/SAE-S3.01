@@ -1,0 +1,184 @@
+body {
+	transition: 5s;
+	margin: 0;
+	background-image: url("../Images/Accueil/background.jpg");
+	background-size: cover;
+}
+
+a {
+	text-decoration: none !important;
+	color: initial !important;
+}
+
+.navbar {
+	width: 100%;
+	height: 100%;
+	background-color: #60a9e6;
+}
+
+#container {
+	z-index: -1;
+	min-height: 60vw;
+	background-color: white;
+	color: #04356C;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	border-radius: 20px;
+
+}
+
+h1,
+h3 {
+	text-align: center;
+}
+
+h1 {
+	background-color: #60a9e6;
+	margin-left: 35%;
+	margin-right: 35%;
+	border-radius: 15px;
+}
+
+#actus {
+	background-color: white;
+	border: 0px black solid;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+#actu1,
+#actu2,
+#actu3 {
+	background-color: #60a9e6;
+	width: 25%;
+	height: 100%;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+#actu1:hover,
+#actu2:hover,
+#actu3:hover {
+	box-shadow: 2px 2px 10px #60a9e6;
+}
+
+#actu1,
+#actu2 {
+	margin-bottom: 5%;
+}
+
+article {
+	margin: 0 5% 0 5%;
+	text-align: justify;
+}
+
+#img1,
+#img2,
+#img3 {
+	text-align: center;
+}
+
+#menuculture {
+	display: none;
+	position: absolute;
+	background-color: #60a9e6;
+}
+
+.nav-item-culture:hover #menuculture {
+	display: block;
+	color: #60a9e6;
+}
+
+li {
+	list-style-type: none;
+}
+
+.dropbtn {
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin-left: -25%;
+
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #60a9e6;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	width: 160px;
+	background-color: #60a9e6;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#accesrapide {
+
+	width: 40%;
+	float: left;
+	margin-left: 7%;
+	background-color: #60a9e6;
+	border-radius: 20px;
+}
+
+#menuaccesrapide {
+	font-size: 0.8em;
+	background-color: #60a9e6;
+	border-radius: 20px;
+	margin-left: 2%;
+	margin-right: 10%;
+}
+
+
+#alire {
+	width: 40%;
+	float: left;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #60a9e6;
+	border-radius: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.main_footer {
+	text-align: center;
+	background-color: white;
+	size: 20%;
+	margin-right: 10%;
+	margin-left: 10%;
+	font-size: 1.5em;
+	border-radius: 2em;
+	margin-top: 2%;
+}
