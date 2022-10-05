@@ -30,7 +30,7 @@ a {
 
 h1,
 h3 {
-	text-align: center;
+	text-align: center ;
 }
 
 h1 {
@@ -143,7 +143,6 @@ li.dropdown {
 #accesrapide {
 
 	width: 40%;
-	float: left;
 	margin-left: 7%;
 	background-color: #60a9e6;
 	border-radius: 20px;
@@ -151,7 +150,6 @@ li.dropdown {
 
 #menuaccesrapide {
 	font-size: 0.8em;
-	background-color: #60a9e6;
 	border-radius: 20px;
 	margin-left: 2%;
 	margin-right: 10%;
@@ -160,7 +158,6 @@ li.dropdown {
 
 #alire {
 	width: 40%;
-	float: left;
 	border-radius: 20px;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -182,3 +179,60 @@ h2 {
 	border-radius: 2em;
 	margin-top: 2%;
 }
+.flex-container , #actus {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  }
+@media screen and (max-width: 700px){
+	#img1,#img2,#img3{
+		display : none;
+	}
+	h1{
+		margin-left:0px;
+		margin-right:0px;
+	}
+	h3{
+		font-size: small;
+	}
+	#actus  {
+		 flex-direction: column;
+		
+	}
+	#actu1 {
+		height:auto;
+		 width:100%;
+		
+	}
+	#actu2 {
+		height:auto;
+		 width:100%;
+		
+	}
+	#actu3  {
+		height:auto;
+		 width:100%;
+		
+	}
+	
+	#accesrapide{
+		padding-left:-10px;
+		margin-left:-10px;
+	
+		
+	}
+	#alire{
+		padding:0;
+		margin-left:-10px;
+	}
+	#menuaccesrapide{
+		margin:0;
+		margin-left:-10px;
+		
+	}
+	
+	
+}
+
+
+
