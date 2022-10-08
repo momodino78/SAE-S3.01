@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	background-image: url("../Images/Accueil/background.jpg");
 	background-size: cover;
+	position:relative;
 }
 
 a {
@@ -18,19 +19,18 @@ a {
 
 #container {
 	z-index: -1;
-	min-height: 60vw;
-	background-color: white;
+	background-color:white;
 	color: #04356C;
 	margin-right: 10%;
 	margin-left: 10%;
 	width: 80%;
 	border-radius: 20px;
-
+	padding-bottom: 2%;
 }
 
 h1,
 h3 {
-	text-align: center;
+	text-align: center ;
 }
 
 h1 {
@@ -41,7 +41,7 @@ h1 {
 }
 
 #actus {
-	background-color: white;
+
 	border: 0px black solid;
 	width: 100%;
 	height: 100%;
@@ -143,7 +143,6 @@ li.dropdown {
 #accesrapide {
 
 	width: 40%;
-	float: left;
 	margin-left: 7%;
 	background-color: #60a9e6;
 	border-radius: 20px;
@@ -151,7 +150,6 @@ li.dropdown {
 
 #menuaccesrapide {
 	font-size: 0.8em;
-	background-color: #60a9e6;
 	border-radius: 20px;
 	margin-left: 2%;
 	margin-right: 10%;
@@ -160,7 +158,6 @@ li.dropdown {
 
 #alire {
 	width: 40%;
-	float: left;
 	border-radius: 20px;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -181,4 +178,125 @@ h2 {
 	font-size: 1.5em;
 	border-radius: 2em;
 	margin-top: 2%;
+}
+.flex-container , #actus {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  }
+
+#presentation{
+	width:100%;
+	
+}
+
+#texte{
+	width:30%;
+	position: absolute;
+	top: 0vh;
+	left: 5vh;
+	margin-top:300px;
+	font-family: 'comic sans ms';
+	transform: translateX(-100%);
+	color : black;
+	animation : slide-in 3s ease-out forwards;
+}
+
+
+@keyframes slide-in {
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@keyframes txt-appearance {
+	100% {
+		color :black;
+	}
+}
+
+#cc{
+	max-height: 100%;
+	height: 920px;
+	margin-right: 0px;
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 700px){
+	#img1,#img2,#img3{
+		display : none;
+	}
+	h1{
+		margin-left:0px;
+		margin-right:0px;
+	}
+	h3{
+		font-size: small;
+	}
+	#container{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	#actus  {
+		 flex-direction: column;
+		
+	}
+	#actu1 {
+		height:auto;
+		 width:100%;
+		
+	}
+	#actu2 {
+		height:auto;
+		 width:100%;
+		
+	}
+	#actu3  {
+		height:auto;
+		 width:100%;
+		 margin-bottom: 10px;
+		
+	}
+	
+	#accesrapide{
+		padding-left:-10px;
+		margin-left:-10px;
+	
+		
+	}
+	#alire{
+		padding:0;
+		margin-left:-10px;
+	}
+	#menuaccesrapide{
+		margin:0;
+		margin-left:-10px;
+		
+	}
+	#presentation{
+		display: none;
+	}
+	
+	
+}
+@media (min-width : 700px) and (max-width: 1200px){
+
+	#img1{
+		display : none;
+	}
+	.flex-container{
+		margin-top: 10px;
+	}
+	#presentation{
+		display: none;
+	}
+	#actu2{
+		width: 40%;
+	}
+
+	#actu3{
+		width: 30%;
+	}
 }

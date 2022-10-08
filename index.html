@@ -7,8 +7,8 @@
   <title> Accueil - Beauvaisis.fr - Communauté d'agglomération du Beauvaisis </title>
   <link rel="icon" href="Images/Accueil/icon.ico" />
   <link rel="stylesheet" href="CSS/accueil.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -147,10 +147,12 @@
   <!-------------- FIN MENU ---------------->
 
   <!-------------- DEBUT CONTENU ---------------->
+  <div id="presentation">
+    <div id="texte"><h3><span> Bienvenue sur le nouveau site de l'agglomération du Beauvaisis !</span></h3></div>
+    <img id="cc" src="images/accueil/cathe.jpg">
+  </div>
   <div id="container">
-    <br><br>
-    <h1> Bienvenue à Beauvaisis !</h1>
-    <br><br>
+    <br>
     <div id="actus">
       <div id="actu1">
         <a href="https://culture.beauvais.fr/contenu/evenement/journees-europeennes-du-patrimoine-2022" target="_blank">
@@ -197,59 +199,60 @@
         </a>
       </div>
     </div>
+    <div class="flex-container">
+      <div id="accesrapide">
+        <h2>Accès rapide</h2>
+        <ul id="menuaccesrapide">
+          <div id="aqua">
+            <li><a href="http://beauvaisis.fr/aquaspace/aquaspace-un-ocean-de-loisirs.html" target="_blank">
+                <h4>L'Aquaspace </h4>
+                <p>Un océan de loisirs</p>
+              </a></li>
+          </div>
+          <div id="mala">
+            <li><a href="culture.html" target="_blank">
+                <h4>Maladerie Saint Lazare </h4>
+                <p>Patrimoine et spectacles</p>
+              </a></li>
+          </div>
 
-    <div id="accesrapide">
-      <h2>Accès rapide</h2>
-      <ul id="menuaccesrapide">
-        <div id="aqua">
-          <li><a href="http://beauvaisis.fr/aquaspace/aquaspace-un-ocean-de-loisirs.html" target="_blank">
-              <h4>L'Aquaspace </h4>
-              <p>Un océan de loisirs</p>
-            </a></li>
-        </div>
-        <div id="mala">
-          <li><a href="culture.html" target="_blank">
-              <h4>Maladerie Saint Lazare </h4>
-              <p>Patrimoine et spectacles</p>
-            </a></li>
-        </div>
+          <div id="ecole">
+            <li><a href="culture.html" target="_blank">
+                <h4>Ecole d'art du Beauvaisis </h4>
+                <p>Informations, formations, expositions</p>
+              </a></li> 
+          </div>
+          <div>
+            <li><a href="http://beauvaisis.fr/culture/le-reseau-des-mediatheques.html" target="_blank">
+                <h4>Les médiathèques </h4>
+                <p>Les 6 médiathèques du Beauvaisis</p>
+              </a></li>
+          </div>
+        </ul>
 
-        <div id="ecole">
-          <li><a href="culture.html" target="_blank">
-              <h4>Ecole d'art du Beauvaisis </h4>
-              <p>Informations, formations, expositions</p>
-            </a></li> 
-        </div>
-        <div>
-          <li><a href="http://beauvaisis.fr/culture/le-reseau-des-mediatheques.html" target="_blank">
-              <h4>Les médiathèques </h4>
-              <p>Les 6 médiathèques du Beauvaisis</p>
-            </a></li>
-        </div>
-      </ul>
+      </div>
 
-    </div>
-
-    <div id="alire">
-      <h2>A lire sur Beauvais.fr</h2>
-      <ul id="menualire">
-        <div id="emplois">
-          <li><a href="http://www.beauvais.fr/economie-emploi/offres-d-emploi-de-la-mairie.html" target="_blank">Les
-              offres d'emploi de la Ville de Beauvais et de l'Agglo</a></li>
-        </div>
-        <div id="proxav">
-          <li><a href="http://www.beauvais.fr/actualites/prochainement-a-beauvais/2931-l-aventure-est-la.html"
-              target="_blank">Prox'aventure - mercredi 21 septembre 2022</a></li>
-        </div>
-        <div id="episcopal">
-          <li><a
-              href="http://www.beauvais.fr/actualites/2935-quartier-episcopal-le-coeur-de-ville-de-beauvais-entre-en-travaux.html"
-              target="_blank">Quartier episcopal : le coeur de ville de Beauvais rentre en travaux</a></li>
-        </div>
-        <div id="renbauv">
-          <li><a
-              href="http://www.beauvais.fr/actualites/prochainement-a-beauvais/2930-5eme-rencontres-beauvenitiennes-les-24-et-25-septembre-2022.html"
-              target="_blank">5ème Rencontres Beauvénitiennes les 24 et 25 septembre 2022</a></li>
+      <div id="alire">
+        <h2>A lire sur Beauvais.fr</h2>
+        <ul id="menualire">
+          <div id="emplois">
+            <li><a href="http://www.beauvais.fr/economie-emploi/offres-d-emploi-de-la-mairie.html" target="_blank">Les
+                offres d'emploi de la Ville de Beauvais et de l'Agglo</a></li>
+          </div>
+          <div id="proxav">
+            <li><a href="http://www.beauvais.fr/actualites/prochainement-a-beauvais/2931-l-aventure-est-la.html"
+                target="_blank">Prox'aventure - mercredi 21 septembre 2022</a></li>
+          </div>
+          <div id="episcopal">
+            <li><a
+                href="http://www.beauvais.fr/actualites/2935-quartier-episcopal-le-coeur-de-ville-de-beauvais-entre-en-travaux.html"
+                target="_blank">Quartier episcopal : le coeur de ville de Beauvais rentre en travaux</a></li>
+          </div>
+          <div id="renbauv">
+            <li><a
+                href="http://www.beauvais.fr/actualites/prochainement-a-beauvais/2930-5eme-rencontres-beauvenitiennes-les-24-et-25-septembre-2022.html"
+                target="_blank">5ème Rencontres Beauvénitiennes les 24 et 25 septembre 2022</a></li>
+          </div>
         </div>
       </ul>
 
@@ -258,6 +261,7 @@
 
   </div>
   <!-------------- FIN CONTENU ---------------->
+  <!-------------- DEBUT FOOTER ---------------->
   <footer class="main_footer center_text ptb_2">
     <div class="contenu-footer">
       <p><a href="index.html">Accueil</a> | <a href="http://www.beauvaisis.fr/mentions-legales.html"
@@ -266,6 +270,7 @@
           contacter</a></p>
     </div>
   </footer>
+  <!-------------- FIN FOOTER ---------------->
 </body>
 
 </html>
