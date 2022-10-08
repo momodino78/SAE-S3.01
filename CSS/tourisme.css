@@ -1,5 +1,5 @@
 body {
-	transition: 5s;
+	transition: 2s;
 	margin: 0;
 	background-image: url(../Images/Accueil/background.jpg);
 	background-size: cover;
@@ -138,4 +138,15 @@ iframe {
 	font-size: 1.5em;
 	border-radius: 2em;
 	margin-top: 2%;
+}
+
+@media screen and (max-width: 1200px){
+	iframe{display:none;}
+	img{display:none;}
+	body{
+		margin: 0;
+		background-color: #0a53be;
+	}
+	#texte1,#texte3,#adresse{margin-top:0%;margin-left: 0%;}
+
 }
