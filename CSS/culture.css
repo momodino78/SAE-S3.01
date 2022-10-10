@@ -1,103 +1,16 @@
-body {
-	background-color: #FFF;
-	transition: 5s;
-	background-image: url("../Images/Accueil/background.jpg");
-	background-size: cover;
-}
-
-.navbar {
-	border: 0px solid black;
-	width: 100%;
-	height: 100%;
-	background-color: #60a9e6;
-}
-
-#encadrer {
-	z-index: -1;
-	min-height: 60vw;
-	background-color: white;
-	color: #60a9e6;
-	margin-right: 10%;
-	margin-left: 10%;
-	width: 80%;
-	border-radius: 20px;
-	margin-bottom: 2%;
-}
+@import url("shared_css.css");
 
 #titre {
 	text-align: center;
 }
 
 #info {
-
+	font-size: medium;
 	color: black;
 	margin-right: 5%;
 	margin-left: 5%;
 	text-align: justify;
 	padding-bottom: 2%;
-}
-
-#menuculture {
-	display: none;
-	position: absolute;
-	background-color: #60a9e6;
-
-
-
-}
-
-.nav-item-culture:hover #menuculture {
-	display: block;
-	color: #60a9e6;
-
-
-}
-
-li {
-	list-style-type: none;
-}
-
-.dropbtn {
-	display: inline-block;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	margin-left: -25%;
-
-}
-
-li a:hover,
-.dropdown:hover .dropbtn {
-	background-color: #60a9e6;
-}
-
-li.dropdown {
-	display: inline-block;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	width: 160px;
-	background-color: #60a9e6;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 1;
-}
-
-.dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: center;
-}
-
-.dropdown-content a:hover {
-	background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
 }
 
 #imgmaladerie {
@@ -114,144 +27,24 @@ li.dropdown {
 	text-align: center;
 }
 
-h3 {
-	background-color: #60a9e6;
-}
-
 #textecole {
 	display: block;
 	margin-top: 2%;
 }
 
-#menuactu {
-	display: none;
-	position: absolute;
-	background-color: #60a9e6;
-
-
-
-}
-
-.nav-item-actu:hover #menuactu {
-	display: block;
-	color: #60a9e6;
-
-
-}
-
-#menutransport {
-	display: none;
-	position: absolute;
-	background-color: #60a9e6;
-
-
-
-}
-
-.nav-item-transport:hover #menutransport {
-	display: block;
-	color: #60a9e6;
-
-
-}
-
-#menuclimat {
-	display: none;
-	position: absolute;
-	background-color: #60a9e6;
-
-
-
-}
-
-.nav-item-climat:hover #menuclimat {
-	display: block;
-	color: #60a9e6;
-
-
-}
-
-#menupolitique {
-	display: none;
-	position: absolute;
-	background-color: #60a9e6;
-
-
-
-}
-
-.nav-item-politique:hover #menupolitique {
-	display: block;
-	color: #60a9e6;
-
-
-}
-
-#menuhabitat {
-	display: none;
-	position: absolute;
-	background-color: #60a9e6;
-
-
-
-}
-
-.nav-item-habitat:hover #menuhabitat {
-	display: block;
-	color: #60a9e6;
-
-
-}
-
-#menudechet {
-	display: none;
-	position: absolute;
-	background-color: #60a9e6;
-
-
-
-}
-
-.nav-item-dechet:hover #menudechet {
-	display: block;
-	color: #60a9e6;
-
-
-}
-
-#menutourisme {
-	display: none;
-	position: absolute;
-	background-color: #60a9e6;
-
-
-
-}
-
-.nav-item-tourisme:hover #menutourisme {
-	display: block;
-	color: #60a9e6;
-
-}
-
-.main_footer {
-	text-align: center;
-	background-color: white;
-	margin-right: 10%;
-	margin-left: 10%;
-	font-size: 1.5em;
-	border-radius: 2em;
-	margin-top: 2%;
-}
-
-a {
-	text-decoration: none !important;
-	color: initial !important;
+#map{
+	position : relative;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-right: auto;
 }
 
 @media (max-width: 700px) {
 	#imgmaladerie {
 		float: left;
+		padding: none;
+
+
 	}
 
 	#imgart {
@@ -276,6 +69,36 @@ a {
 		text-decoration: none !important;
 		color: initial !important;
 		font-size: small;
+		
+	}
+
+	img{
+		display : none;
+	}
+
+	
+	#art {
+		display : block;
+		margin-left : 0;
+	}
+	#map{
+		width: 50%;
+		height: 50%;
+		margin-left: 20%;
+		margin-top: 5%;
+
+	}
+	
+}
+
+@media (max-width: 1200px) {
+
+	#map{
+		width: 50%;
+		height: 50%;
+		margin-left: 25%;
+		margin-top: 5%;
+
 	}
 
 }
