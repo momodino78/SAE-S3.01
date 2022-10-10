@@ -98,49 +98,45 @@ article {
 }
 
 @media screen and (max-width: 700px){
-	#img1,#img2,#img3{
-		display : none;
-	}
 	h1{
 		margin-left:0px;
 		margin-right:0px;
 	}
 	h3{
-		font-size: small;
+		font-size: xx-small;
 	}
+	
 	#container{
 		padding-left: 2%;
 		padding-right: 2%;
 	}
-	#actus  {
+	#actus {
 		 flex-direction: column;
 		
 	}
-	#actu1 {
+	.actu {
 		height:auto;
 		 width:100%;
-		
-	}
-	#actu2 {
-		height:auto;
-		 width:100%;
-		
-	}
-	#actu3  {
-		height:auto;
-		 width:100%;
-		 margin-bottom: 10px;
-		
+		 margin-bottom: 50px;
 	}
 	
-	#accesrapide{
-		padding-left:-10px;
-		margin-left:-10px;
+	.flex-container{
+		gap:50px;
 	}
+
 	#alire{
 		padding:0;
-		margin-left:-10px;
+		margin-left:0px;
 	}
+
+	#accesrapide h4,#alire a{
+		font-size:small;
+	}
+
+	#accesrapide h2,#alire h2{
+		font-size:1.5em;
+	}
+
 	#menuaccesrapide{
 		margin:0;
 		margin-left:-10px;
@@ -150,11 +146,10 @@ article {
 		display: none;
 	}
 	
-	
 }
 @media (min-width : 700px) and (max-width: 1200px){
 
-	#img1{
+	.actu-img{
 		display : none;
 	}
 	.flex-container{
@@ -163,12 +158,28 @@ article {
 	#presentation{
 		display: none;
 	}
+	
+	.actu article{
+		font-size:small;
+	}
+
+	.actu h3{
+		font-size:1.2em;
+	}
+
 	#actu2{
 		width: 40%;
 	}
 
 	#actu3{
 		width: 30%;
+	}
+	#accesrapide h4,#alire a{
+		font-size:small;
+	}
+
+	#accesrapide h2,#alire h2{
+		font-size:1.5em;
 	}
 }
 

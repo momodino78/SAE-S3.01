@@ -138,4 +138,103 @@ li.dropdown {
 .footer-clean .item.social > a:hover {
 	opacity:0.9;
 }
-  
+
+@media screen and (max-width: 700px){
+    .main_footer {
+        text-align: center;
+        background-color: white;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 10%;
+        font-size: 1.5em;
+        border-radius: 2em;
+        margin-top: 2%;
+    }
+
+    .footer-clean{
+        margin-right: 10%;
+        padding-bottom: 2%;
+    }
+    .footer-clean{
+        margin-left:0;
+    }
+
+    .footer-clean .item.social > a {
+        font-size:18px;
+        width:40px;
+        height:40px;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid #60a9e6;
+        margin-left:10px;
+        margin-top:22px;
+        color:inherit;
+        opacity:0.75;
+    }
+
+    .footer-clean .item.social > a:hover {
+        opacity:0.9;
+    }
+
+	.dropdown-content a{
+		display:none;
+	}
+
+    .main_footer p{
+        font-size: small;
+    }
+}
+
+@media (min-width : 700px) and (max-width: 1000px){
+    .main_footer {
+        text-align: center;
+        background-color: white;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 10%;
+        font-size: 1.5em;
+        border-radius: 2em;
+        margin-top: 2%;
+    }
+
+    .footer-clean{
+        margin-right: 10%;
+        
+    }
+    .footer-clean{
+        margin-left:50px;
+    }
+
+	.contenu-footer p{
+		margin-bottom: 0;
+	}
+
+    .footer-clean .item.social > a {
+        font-size:18px;
+        width:40px;
+        height:40px;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid #60a9e6;
+        margin-left:0px;
+      
+        color:inherit;
+        opacity:0.75;
+    }
+
+	.dropdown-content a{
+		display:none;
+	}
+
+    .footer-clean .item.social > a:hover {
+        opacity:0.9;
+    }
+
+    .main_footer p{
+        font-size: small;
+    }
+}
