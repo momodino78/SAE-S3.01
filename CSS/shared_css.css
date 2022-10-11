@@ -1,7 +1,12 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+           url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+   } /* contiuer*/
+
 body {
 	transition: 2s;
-	background-image: url(../Images/Accueil/background.jpg);
-	background-size: cover;
+    background-color: white;
 	position:relative;
 }
 
@@ -17,7 +22,7 @@ body {
 
 	width: 100%;
 	height: 8px;
-	background: turquoise;
+	background: #c7c7c7;
 }
 
 .progress-bar {
@@ -27,12 +32,12 @@ body {
 
 #container {
     min-height: 55vw;
-    background-color: white;
+    background-color: #c7c7c7;
     margin-right: 10%;
     margin-left: 10%;
     width: 80%;
     border-radius: 20px;
-	padding-bottom: 2%;
+    padding-bottom: 2%;
 }
 
 a {
@@ -43,7 +48,7 @@ a {
 .navbar {
     width: 100%;
     height: 100%;
-    background-color: #60a9e6;
+    background-color: #9f9f9f;
 }
 
 li {
@@ -61,7 +66,7 @@ li {
 
 li a:hover,
 .dropdown:hover .dropbtn {
-	background-color: #60a9e6;
+	background-color: #9f9f9f ;
 }
 
 li.dropdown {
@@ -72,7 +77,7 @@ li.dropdown {
 	display: none;
 	position: absolute;
 	width: 160px;
-	background-color: #60a9e6;
+	background-color: #9f9f9f ;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 }
@@ -92,18 +97,9 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
 	display: block;}
 
-#container {
-    min-height: 55vw;
-    background-color: white;
-    margin-right: 10%;
-    margin-left: 10%;
-    width: 80%;
-    border-radius: 20px;
-}
-
 .main_footer {
 	text-align: center;
-	background-color: white;
+	background-color: #c7c7c7;
 	margin-right: 10%;
 	margin-left: 10%;
 	font-size: 1.5em;
@@ -123,7 +119,7 @@ li.dropdown {
 	display:inline-block;
 	text-align:center;
 	border-radius:50%;
-	border:1px solid #60a9e6;
+	border:1px solid #9f9f9f ;
 	margin-left:10px;
 	margin-top:22px;
 	color:inherit;
@@ -137,7 +133,7 @@ li.dropdown {
 @media screen and (max-width: 700px){
     .main_footer {
         text-align: center;
-        background-color: white;
+        background-color: #c7c7c7;
         margin-right: 10%;
         margin-left: 10%;
         height: 10%;
@@ -162,7 +158,6 @@ li.dropdown {
         display:inline-block;
         text-align:center;
         border-radius:50%;
-        border:1px solid #60a9e6;
         margin-left:10px;
         margin-top:22px;
         color:inherit;
@@ -185,7 +180,7 @@ li.dropdown {
 @media (min-width : 700px) and (max-width: 1000px){
     .main_footer {
         text-align: center;
-        background-color: white;
+        background-color: #9f9f9f;
         margin-right: 10%;
         margin-left: 10%;
         height: 10%;
@@ -214,7 +209,6 @@ li.dropdown {
         display:inline-block;
         text-align:center;
         border-radius:50%;
-        border:1px solid #60a9e6;
         margin-left:0px;
       
         color:inherit;

@@ -4,8 +4,6 @@ h2, h3{
 	text-align: center ;
 }
 
-
-
 #presentation{
 	width:100%;	
 }
@@ -50,7 +48,7 @@ h2, h3{
 }
 
 .actu{
-	background-color: #60a9e6;
+	background-color: white;
 	width: 25%;
 	height: 100%;
 	text-decoration: none;
@@ -59,7 +57,7 @@ h2, h3{
 }
 
 .actu:hover {
-	box-shadow: 2px 2px 10px #60a9e6;
+	box-shadow: 2px 2px 10px white;
 }
 
 article {
@@ -74,7 +72,7 @@ article {
 #accesrapide {
 	width: 40%;
 	margin-left: 7%;
-	background-color: #60a9e6;
+	background-color: white;
 	border-radius: 20px;
 }
 
@@ -90,7 +88,7 @@ article {
 	border-radius: 20px;
 	margin-left: 5%;
 	margin-right: 5%;
-	background-color: #60a9e6;
+	background-color: white;
 	border-radius: 20px;
 }
 
