@@ -92,6 +92,18 @@ article {
 	border-radius: 20px;
 }
 
+#menualire{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+	align-items:stretch;
+}
+
+#alire > *{
+	display:block;
+}
+
 .flex-container{
 	display: flex;
 	justify-content: space-around;
