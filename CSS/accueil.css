@@ -140,12 +140,7 @@ article {
 	}
 	
 	.flex-container{
-		gap:50px;
-	}
-
-	#alire{
-		padding:0;
-		margin-left:0px;
+		gap:30px;
 	}
 
 	#accesrapide h4,#alire a{
@@ -164,6 +159,7 @@ article {
 	#presentation{
 		display: none;
 	}
+
 	
 }
 @media (min-width : 700px) and (max-width: 1200px){
@@ -200,5 +196,7 @@ article {
 	#accesrapide h2,#alire h2{
 		font-size:1.5em;
 	}
+
+
 }
 
