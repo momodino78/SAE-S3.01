@@ -1,0 +1,66 @@
+@import url("shared_css.css");
+
+h1 {
+    text-align: center;
+    color: #60a9e6;
+}
+
+h3 {
+    background-color: #60a9e6;
+}
+
+#présentation {
+    margin-left: 5%;
+}
+
+#légende {
+    margin-left: 70%;
+    margin-top: -30%;
+}
+
+#info {
+    margin-top: 5%;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    #pres {
+        width: 100%;
+    }
+
+    #légende{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    img{
+        width:100%;
+    }
+
+    img.leg{
+        width:40% !important;
+    }
+
+    #titre{display: none;}
+
+    body{background-image: none;}
+}
+
+@media (min-width : 700px) and (max-width: 1200px){
+    #pres {
+        width: 100%;
+    }
+
+    #légende{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    img{
+        width:100%;
+    }
+
+    img.leg{
+        width:40% !important;
+    }
+}
