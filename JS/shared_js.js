@@ -1,4 +1,5 @@
 window.onload = () => {
+    
     window.onscroll = function() {
         scroll()
     };
@@ -10,3 +11,12 @@ window.onload = () => {
     document.getElementById("myBar").style.width = scrolled + "%";
     }
 }
+
+
+
+window.addEventListener('load', () => {
+
+    const loader = document.querySelector('.loader');
+    loader.classList.add('fondu-out');
+
+})

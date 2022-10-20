@@ -3,8 +3,15 @@
 #titre {
 	text-align: center;
 }
+.ligne{
+	border: 1px solid black ;
+	border-bottom-color:transparent ;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 #info {
+	
 	font-size: medium;
 	color: black;
 	margin-right: 5%;
@@ -17,6 +24,9 @@
 	float: left;
 
 }
+#container {
+    margin-top: 20px;
+}
 
 #art {
 	margin-left: 20%;
@@ -26,9 +36,20 @@
 #imgart {
 	text-align: center;
 }
+#textecole1 , #textecole2 {
+	width: 40%;
+	font-size: medium;
+
+}
+#textecole1 {
+	margin-right: 50px;
+	
+}
 
 #textecole {
-	display: block;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	margin-top: 2%;
 }
 
