@@ -5,13 +5,14 @@
    } /* contiuer*/
 
 .navbar-brand{
-height: 100px;
+height: 60px;
 
 }
 body {
 	transition: 2s;
     background-color: white;
 	position:relative;
+    font-family:  Georgia, serif;
 }
 
 .molette {
@@ -34,15 +35,16 @@ body {
 	width: 0%;
 }
 
-#container {
+/*#container {
     min-height: 55vw;
-    background-color: lightblue;
+    background-color: rgba(255, 255, 255, 0.61);  lightblue
     margin-right: 10%;
     margin-left: 10%;
     width: 80%;
     padding-bottom: 2%;
     margin-top:20px;
-}
+    border:1px solid black;
+}*/
 
 a {
 	text-decoration: none !important;
