@@ -55,8 +55,9 @@ a {
 
 .navbar-nav{
     border:0px solid black;
-    width:50%;
+    width:55%;
     justify-content: space-around;
+    margin-right: 5%;
 }
 
 .main_footer {
