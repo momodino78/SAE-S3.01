@@ -1,8 +1,15 @@
 @import url("shared_css.css");
 
+#container{
+    font-family: 'Montserrat';
+}
+
 h1 {
     text-align: center;
-    color: #60a9e6;
+    font-family: 'Montserrat';
+    padding-top:3%;
+    padding-bottom: 3%;
+    border:2px solid black;
 }
 
 h3 {
@@ -11,6 +18,11 @@ h3 {
 
 #présentation {
     margin-left: 5%;
+    margin-top:2%;
+}
+
+#pres{
+    margin-bottom: 5%;
 }
 
 #légende {
