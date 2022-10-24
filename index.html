@@ -5,16 +5,19 @@
 <head>
   <meta charset="utf-8">
   <title> Accueil - Beauvaisis.fr - Communauté d'agglomération du Beauvaisis </title>
-  <link rel="icon" href="Images/Accueil/icon.ico" />
+  <link rel="icon" href="Images/Accueil/icon.ico">
   <link rel="stylesheet" href="CSS/accueil.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
   <script type="text/javascript" src="JS/shared_js.js"></script>
 </head>
 
@@ -40,138 +43,56 @@
     </div>
   </div>
   <!-------------- DEBUT MENU ---------------->
-  <nav class="navbar navbar-expand-lg sticky-top">
+
+  <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <!-- <a class="navbar-brand" href="#">Agglomération du Beauvaisis</a> -->
-      <img class="navbar-brand" src="images/accueil/logo-agglo-beauvaisis.png">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a href="#"> <img class="navbar-brand" src="images/accueil/logo-agglo-beauvaisis.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><b>Accueil</b></a>
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
           </li>
-          <li class="nav-item-pres dropdown">
-            <a class="nav-link" href="#">Présentation </a>
-            <div id="menupres">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn" href="présentation.html">Présentation </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/communaute-agglomeration/fonctionnement-agglo-du-beauvaisis.html">Communauté
-                  </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/communaute-agglomeration/le-conseil-communautaire/membres-des-commissions.html">Conseil
-                  </a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-transport dropdown">
-            <a class="nav-link" href="#">Transport</a>
-            <div id="menutransport">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/transports-urbains.html">Transports
-                    ubrains </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/navette-aeroport.html">
-                    l'aéroport </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/tad-transport-a-la-demande.html">TAD
-                  </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/le-smtco.html"> S.M.T.C.O</a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/pdu-plan-de-deplacement-urbain.html">PDU
-                  </a></li>
-                <li><a class="dropbtn" href="transport.html">Trotinettes</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-apc dropdown">
-            <a class="nav-link" href="#"> Climat</a>
-            <div id="menuapc">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/amenagement-du-territoire/zones-amenagement-concerte.html">Zones
-                    d'Aménagement </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/navette-aeroport.html">
-                    plan climat </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/tad-transport-a-la-demande.html">
-                    mise en oeuvre</a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/le-smtco.html"> Consultation
-                    du projet</a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/pdu-plan-de-deplacement-urbain.html">
-                    Document
-                  </a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-pol dropdown">
-            <a class="nav-link" href="#">Politique </a> <!-- avec economie -->
-            <div id="menupol">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/la-politique-de-la-ville.html"> la
-                    ville </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/politique-de-la-ville/contrat-de-ville-2023.html">Contrat de ville
-                  </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/developpement-economie/pourquoi-le-beauvaisis.html">
-                    Economie</a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/enseignement-superieur-beauvaisis/index.html">Enseignement
-                    Supérieur</a></li>
-              </ul>
-            </div>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              L'agglomération
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="présentation.html">Présentation</a></li>
+              <li><a class="dropdown-item" href="http://www.beauvaisis.fr/actualites/actualites-du-beauvaisis.html" _target="blank">Actualités</a></li>
+            </ul>
           </li>
-          <li class="nav-item-hab dropdown">
-            <a class="nav-link" href="http://www.beauvaisis.fr/habitat/plan-renovation-confort-du-beauvaisis.html"
-              target="_blank">Habitat</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Habiter
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="transport.html">Transport</a></li>
+              <li><a class="dropdown-item" href="#">Climat</a></li>
+              <li><a class="dropdown-item" href="#">Politique</a></li>
+            </ul>
           </li>
-          <li class="nav-item-dechet dropdown">
-            <a class="nav-link" href="#">Déchets </a>
-            <div id="menudechet">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/collecte-des-dechets/guide-du-tri-selectif.html#dectop">Collecte
-                  </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/assainissement/assainissement-non-collectif/le-spanc.html">Assainissement</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-culture dropdown">
-            <a class="nav-link" href="#">Culture</a>
-            <div id="menuculture">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/conservatoire-eustache-du-caurroy/conservatoire-eustache-du-caurroy.html">Conservatoire
-                  </a></li>
-                <li><a class="dropbtn" href="culture.html">Maladerie </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/culture/le-reseau-des-mediatheques.html">Médiathèque</a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/loisirs/equipements-sportifs-intercommunaux.html">Sport</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-tourisme dropdown">
-            <a class="nav-link" href="#">Tourisme</a>
-            <div id="menutourisme">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/tourisme/office-du-tourisme-du-beauvaisis.html">Tourisme </a></li>
-                <li><a class="dropbtn" href="https://www.visitbeauvais.fr/sejourner/hebergements/hotels/"
-                    target="_blank">Hôtels </a></li>
-                <li><a class="dropbtn" href="https://www.visitbeauvais.fr/sejourner/hebergements/chambres-dhotes/"
-                    target="_blank">Les chambres</a></li>
-                <li><a class="dropbtn" href="tourisme.html">Sites touristiques</a></li>
-              </ul>
-            </div>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Visiter
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="culture.html">Maladerie</a></li>
+              <li><a class="dropdown-item" href="#">Conservatoire</a></li>
+              <li><a class="dropdown-item" href="tourisme.html">Sites touristiques majeurs</a></li>
+            </ul>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+
   <!-------------- FIN MENU ---------------->
 
   <!-------------- DEBUT CONTENU ---------------->
@@ -243,7 +164,7 @@
                   <p>Ecole d'art du Beauvaisis </p>
                 </a></li>
             </div>
-            <div class="menu">
+            <div class="lastmenu">
               <li><a href="http://beauvaisis.fr/culture/le-reseau-des-mediatheques.html" target="_blank">
                   <p>Les médiathèques </p>
                 </a></li>
@@ -279,7 +200,7 @@
               </li>
             </div>
 
-            <div class="menu">
+            <div class="lastmenu">
               <li>
                 <a href="http://www.beauvais.fr/actualites/prochainement-a-beauvais/2930-5eme-rencontres-beauvenitiennes-les-24-et-25-septembre-2022.html"
                 target="_blank">5ème Rencontres Beauvénitiennes les 24 et 25 septembre 2022
@@ -296,24 +217,22 @@
     <div class="contenu-footer">
       <p>
         <a href="index.html">Accueil</a> |
-        <a href="http://www.beauvaisis.fr/mentions-legales.html%22%3E"> Mentions légales</a> |
-        <a href="http://www.beauvaisis.fr/communaute-agglomeration/nous-contacter.html%22%3ENous"> Contacter </a>
+        <a href="http://www.beauvaisis.fr/mentions-legales.html"> Mentions légales</a> |
+        <a href="http://www.beauvaisis.fr/communaute-agglomeration/nous-contacter.html">Nous Contacter </a>
       </p>
       <div class="footer-clean">
         <div class="mx-auto item social">
           <a
-            href="https://www.facebook.com/login.php?skip_api_login=1&api_key=140586622674265&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv8.0%2Fdialog%2Fshare%3Fredirect_uri%3Dhttp%253A%252F%252Fs7.addthis.com%252Fstatic%252Fthankyou.html%26display%3Dpopup%26href%3Dhttp%253A%252F%252Fwww.beauvaisis.fr%252Fla-politique-de-la-ville.html%2523.Y0HadkgZXPM.facebook%26client_id%3D140586622674265%26ret%3Dlogin&cancel_url=https%3A%2F%2Fs7.addthis.com%2Fstatic%2Fthankyou.html%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=fr_FR">
+            href="https://www.facebook.com/beauvaisis" target="_blank">
             <i class="icon ion-social-facebook"></i></a>
           <a
-            href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.beauvaisis.fr%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Transports%20urbains%20Corolis%20-%20Beauvaisis.fr%20-%20Communaut%C3%A9%20d%27agglom%C3%A9ration%20du%20Beauvaisis%3A&url=http%3A%2F%2Fwww.beauvaisis.fr%2Ftransport%2Ftransports-urbains.html%23.Y0Ha0o7O2VA.twitter">
+            href="https://twitter.com/AggloBeauvaisis" target="_blank">
             <i class="icon ion-social-twitter"></i></a>
           <a
-            href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttp%253A%252F%252Fwww.beauvaisis.fr%252Ftransport%252Ftransports-urbains.html%2523.Y0Hbm2tUV_0.linkedin%26title%3DTransports%2Burbains%2BCorolis%2B-%2BBeauvaisis.fr%2B-%2BCommunaut%25C3%25A9%2Bd%2527agglom%25C3%25A9ration%2Bdu%2BBeauvaisis%26ro%3Dfalse%26summary%3D%26source%3D">
+            href="https://www.linkedin.com/company/communaute-d-agglomeration-du-beauvaisis/" target="_blank">
             <i class="icon ion-social-linkedin"></i></a>
         </div>
       </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     </div>
   </footer>
   <!-------------- FIN FOOTER ---------------->
