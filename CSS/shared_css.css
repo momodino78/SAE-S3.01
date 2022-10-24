@@ -12,7 +12,7 @@ body {
 	transition: 2s;
     background-color: white;
 	position:relative;
-    font-family:  Georgia, serif;
+    font-family: Georgia, serif;
 }
 
 .molette {
@@ -33,6 +33,10 @@ body {
 .progress-bar {
 	height: 8px;
 	width: 0%;
+}
+
+#container{
+    font-family: Georgia, serif;
 }
 
 /*#container {
@@ -115,6 +119,10 @@ li.dropdown {
     margin-bottom: 10px;
 	margin-top: 2%;
     padding-bottom: 1%;
+}
+
+.footer-clean> .contenu-footer>p>a{
+    margin-top:10%;
 }
 
 .footer-clean .item.social > a {
