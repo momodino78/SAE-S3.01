@@ -39,12 +39,41 @@ hr.seperateur{
 	margin:auto;
 }
 
-@media screen and (max-width: 1200px){
-	iframe{display:none;}
-	img{display:none;}
-	body{
-		margin: 0;
-		background-color: #0a53be;
+@media screen and (max-width: 700px) {
+	h1{
+		font-size: 1.8em !important;
 	}
-	#texte1,#texte3,#adresse{margin-top:0%;margin-left: 0%;}
+
+	h2{
+		font-size: 1.6em !important;
+	}
+
+	article{
+		margin-right:-10%;
+	}
+
+	#chateau>article{
+		margin-right: -20%;
+	}
+	img,#map{display:none;}
+
+	footer{
+		display: none !important;
+	}
+}
+
+@media (min-width : 700px) and (max-width: 1200px){
+	h1{
+		font-size: 1.8em !important;
+	}
+
+	img{display:none;}
+
+	article{
+		margin-right:-5%;
+	}
+
+	footer{
+		margin: 5% 0 0 0 !important;
+	}
 }
