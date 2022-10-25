@@ -17,6 +17,8 @@ h1 {
 	margin: 2% 10% 2% 20%;
 }
 
+article{text-align: justify}
+
 .cases{
 	width:50%;
 	margin-left:27.5%;
@@ -40,4 +42,28 @@ article{
 	justify-content: center;
 	margin-top:2%;
 	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+	.cases{
+		width:80%;
+		margin-left: 10%;
+		margin-right:10%;
+	}
+
+	.case_odd, .case_even{width:100%;}
+
+	footer{
+		display: none !important;
+	}
+}
+
+@media (min-width : 700px) and (max-width: 1200px) {
+	article{
+		font-size:0.8em;
+	}
+
+	footer{
+		margin: 0 0 0 0 !important;
+	}
 }
