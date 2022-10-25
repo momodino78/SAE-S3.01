@@ -55,7 +55,7 @@ hr.seperateur{
 	#chateau>article{
 		margin-right: -20%;
 	}
-	img,#map{display:none;}
+	#imgcathe,#imgchato,#map{display:none;}
 
 	footer{
 		display: none !important;
@@ -67,7 +67,7 @@ hr.seperateur{
 		font-size: 1.8em !important;
 	}
 
-	img{display:none;}
+	#imgcathe,#imgchato{display:none;}
 
 	article{
 		margin-right:-5%;
