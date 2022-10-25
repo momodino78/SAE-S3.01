@@ -26,7 +26,7 @@ Refonte graphique et réarrangement du contenu du [site de l'agglomération du B
 ### Pages refaites
 
 * Page d'accueil - Morgane BRETON et Tony GUAN 205
-* Catégorie "Présentation et actualités" - Page "Présentation générale" - Jonatan LIN 206
-* Catégorie "Transport" - Page "Trotinettes BIRD" - José MENDES PEREIRA 206
-* Catégorie "Culture, Loisirs et Famille" - Page "Maladerie et École d'art" - Tony GUAN 205
-* Catégorie "Tourisme" - Page "Sites touristiques majeurs" - Morgane BRETON 205
+* Catégorie "L'agglomération" - Page "Présentation" - Jonatan LIN 206
+* Catégorie "Habiter" - Page "Transport" - José MENDES PEREIRA 206
+* Catégorie "Visiter" - Page "Culture" - Tony GUAN 205
+* Catégorie "Visiter" - Page "Sites touristiques" - Morgane BRETON 205
