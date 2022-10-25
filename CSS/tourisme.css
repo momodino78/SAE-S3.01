@@ -1,43 +1,42 @@
 @import url("shared_css.css");
 
 h1 {
-	color: #60a9e6;
-	margin-left: 20%;
-	margin-right: 20%;
-	border-radius: 15px;
 	text-align: center;
-	border: 0px solid black;
+	padding-top:3%;
+	padding-bottom: 3%;
+	margin-bottom: 3% !important;
+	border:2px solid black;
 }
 
-#cathé,
-#chateau {
-	margin: 0 5% 4% 5%;
-	text-align: justify;
+h2{
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
-img {
+hr.seperateur{
+	border:3px solid black;
 	margin-top: 2%;
 }
 
-#texte1 {
-	display: block;
-	margin-left: 25%;
-	margin-top: -14%;
+#sites{
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: justify;
 }
 
-iframe {
-	margin-left: 35%;
-	margin-top: -15%;
+#cathé,#chateau{
+	display:flex;
+	gap:50px;
+	align-items: center;
 }
 
-#adresse {
-	margin-top: -10%;
+#chateau{
+	gap:20%;
 }
 
-#texte3 {
-	display: block;
-	margin-left: 25%;
-	margin-top: -15%;
+#map{
+	width:100%;
+	margin:auto;
 }
 
 @media screen and (max-width: 1200px){

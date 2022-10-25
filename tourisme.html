@@ -6,10 +6,17 @@
   <title>Tourisme</title>
   <link rel="icon" href="Images/Accueil/icon.ico" />
   <link href="CSS/tourisme.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
   <script type="text/javascript" src="JS/shared_js.js"></script>
 </head>
 
@@ -33,125 +40,47 @@
     </div>
   </div>
   <!-------------- DEBUT MENU ---------------->
-  <nav class="navbar navbar-expand-lg sticky-top">
+  <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <img class="navbar-brand" src="images/accueil/logo-agglo-beauvaisis.png">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a href="index.html"> <img class="navbar-brand" src="images/accueil/logo-agglo-beauvaisis.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
           </li>
-          <li class="nav-item-pres dropdown">
-            <a class="nav-link" href="#">Présentation</a>
-            <div id="menupres">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn" href="présentation.html">Présentation </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/communaute-agglomeration/fonctionnement-agglo-du-beauvaisis.html">Communauté
-                     </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/communaute-agglomeration/le-conseil-communautaire/membres-des-commissions.html">Conseil
-                    </a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-transport dropdown">
-            <a class="nav-link" href="#">Transport</a>
-            <div id="menutransport">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/transports-urbains.html">Transports
-                    ubrains </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/navette-aeroport.html">L'aéroport </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/tad-transport-a-la-demande.html">TAD 
-                   </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/le-smtco.html"> S.M.T.C.O</a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/pdu-plan-de-deplacement-urbain.html">PDU
-                 </a></li>
-                <li><a class="dropbtn" href="transport.html">Trotinettes BIRD</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-apc dropdown">
-            <a class="nav-link" href="#"> Climat</a>
-            <div id="menuapc">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/amenagement-du-territoire/zones-amenagement-concerte.html">Zones
-                    d'Aménagement </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/navette-aeroport.html">Plan climat  </a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/tad-transport-a-la-demande.html">Mise en oeuvre</a></li>
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/transport/le-smtco.html">Consultation
-                  du projet</a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/transport/pdu-plan-de-deplacement-urbain.html">Document
-                    final</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-pol dropdown">
-            <a class="nav-link" href="#">Politique </a> <!-- avec economie -->
-            <div id="menupol">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn" href="http://www.beauvaisis.fr/la-politique-de-la-ville.html"> Politique</a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/politique-de-la-ville/contrat-de-ville-2023.html">Contrat </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/developpement-economie/pourquoi-le-beauvaisis.html">Développement</a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/enseignement-superieur-beauvaisis/index.html">Enseignement
-                    Supérieur</a></li>
-              </ul>
-            </div>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              L'agglomération
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="présentation.html">Présentation</a></li>
+              <li><a class="dropdown-item" href="http://www.beauvaisis.fr/actualites/actualites-du-beauvaisis.html" _target="blank">Actualités</a></li>
+            </ul>
           </li>
-          <li class="nav-item-hab dropdown">
-            <a class="nav-link" href="http://www.beauvaisis.fr/habitat/plan-renovation-confort-du-beauvaisis.html"
-              target="_blank">Habitat</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Habiter
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="transport.html">Transport</a></li>
+              <li><a class="dropdown-item" href="http://www.beauvaisis.fr/amenagement-du-territoire/zones-amenagement-concerte.html">Climat</a></li>
+              <li><a class="dropdown-item" href="http://www.beauvaisis.fr/la-politique-de-la-ville.html">Politique</a></li>
+            </ul>
           </li>
-          <li class="nav-item-dechet dropdown">
-            <a class="nav-link" href="#">Déchets </a>
-            <div id="menudechet">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/collecte-des-dechets/guide-du-tri-selectif.html#dectop">Collecte  </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/assainissement/assainissement-non-collectif/le-spanc.html">Assainissement</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-culture dropdown">
-            <a class="nav-link" href="#">Culture</a>
-            <div id="menuculture">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/conservatoire-eustache-du-caurroy/conservatoire-eustache-du-caurroy.html">Conservatoire
-                  </a></li>
-                <li><a class="dropbtn" href="culture.html">Maladerie </a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/culture/le-reseau-des-mediatheques.html">Médiathèque</a></li>
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/loisirs/equipements-sportifs-intercommunaux.html">Sport</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item-tourisme dropdown">
-            <a class="nav-link active" href="#"><b>Tourisme</b></a>
-            <div id="menutourisme">
-              <ul class="dropdown-content">
-                <li><a class="dropbtn"
-                    href="http://www.beauvaisis.fr/tourisme/office-du-tourisme-du-beauvaisis.html">Tourisme </a></li>
-                <li><a class="dropbtn" href="https://www.visitbeauvais.fr/sejourner/hebergements/hotels/"
-                    target="_blank">Hôtels  </a></li>
-                <li><a class="dropbtn" href="https://www.visitbeauvais.fr/sejourner/hebergements/chambres-dhotes/"
-                    target="_blank">Les chambres </a></li>
-                <li><a class="dropbtn" href="#">Sites touristiques </a></li>
-              </ul>
-            </div>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Visiter
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="culture.html">Culture</a></li>
+              <li><a class="dropdown-item" href="tourisme.html">Sites touristiques</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -164,9 +93,8 @@
     <h1>Tourisme - Sites touristiques majeurs</h1><br>
     <div id="sites">
       <div id="cathé">
-        <h3>La cathédrale Saint Pierre - Beauvais</h3>
-        <img src="Images/Tourisme/cathedrale.jpg">
-        <div id="texte1">
+        <article>
+          <h2>La cathédrale Saint Pierre - Beauvais</h2>
           <p>En arrivant à Beauvais, la Cathédrale Saint Pierre interpelle par sa silhouette massive, grandiose mais
             inachevée.
             <br><br>
@@ -176,12 +104,9 @@
             Le Chœur et le bas-côté oriental du transept sont achevés en 1272.
             Douze ans plus tard, les parties hautes des travées droites du chœur s'effondrent. La reconstruction dure
             jusqu'au milieu du XIVe siècle, puis les travaux s'arrêtent pendant la guerre de cent ans. Le transept est
-            bâti au XVIe siècle et réalisé essentiellement par l'architecte Martin Chambiges. Il constitue un chef
-            d'œuvre de l'architecture flamboyante.
-          </p>
-        </div>
-        <div id="texte2">
-          <p>De 1563 à 1569, on érige à la croisée du transept une immense flèche de plus de 150 mètres de hauteur, au
+            bâti au XVIe siècle et réalisé essentiellement par l'architecte Martin Chambiges. Il constitue un chef-d'œuvre de l'architecture flamboyante.
+            <br><br>
+            De 1563 à 1569, on érige à la croisée du transept une immense flèche de plus de 150 mètres de hauteur, au
             lieu de construire une nef qui permettrait de consolider le monument . A peine terminée, la flèche s'écroule
             en 1573. La nef ne sera jamais réalisée, faute de fonds. L'Eglise mesure déjà 72m50 de longueur pour une
             hauteur de voûte extraordinaire de près de 47m. Ces voûtes sont les plus hautes de l'histoire gothique.
@@ -190,54 +115,55 @@
             volonté de jaillissement vertical et le rôle essentiel de la lumière.
             Le mobilier, quant à lui, a beaucoup souffert. Toutefois, il existe encore quelques tableaux et statues, 2
             horloges remarquables, l'une datant du XIVe siècle, la seconde étant une horloge astronomique du siècle
-            dernier. A remarquer également, des vitraux du XIIIe jusqu'au XXe siècle.
+            dernier. À remarquer également, des vitraux du XIIIe jusqu'au XXe siècle.
           </p>
-          <a href="http://www.cathedrale-beauvais.fr/" target="_blank"> <b>Site de la cathédrale</b></a>
-          <br><br><u>Dimensions de la cathédrale:</u>
-          <br>Hauteur jusqu'au paratonnerre : 67,23 m
-          <br>Longueur du transept intérieur : 58,6 m
-          <br>Longueur du choeur : 47 m
-          <br>Longueur du choeur / façade ouest : 72,5 m
-          <br><a href="http://www.beauvaisis.fr/tourisme/sites-touristiques-majeurs/cathedrale-saint-pierre.html"
-            target="_blank">En savoir plus</a><br><br>
-          <iframe
-            src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Rue+Saint+Pierre,+Beauvais&amp;sll=49.432217,2.080986&amp;sspn=0.007033,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=Rue+Saint+Pierre,+60000+Beauvais,+Oise,+Picardie&amp;ll=49.432217,2.080986&amp;spn=0.014764,0.038581&amp;z=14&amp;iwloc=near&amp;output=embed"
-            width="700" height="350" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-          <div id="adresse">
-            <u>Adresse :</u>
-            <br>Rue St-Pierre 60000 Beauvais
-            <br>Tél : 03 44 48 11 60
-          </div>
-          </p>
+        </article>
+        <div id="imgcathe">
+          <img src="Images/Tourisme/cathedrale.jpg">
         </div>
       </div>
 
-      <br><br>
-      <div id="chateau">
-        <h3>Le château de Troissereux</h3>
-        <img src="Images/Tourisme/chateau.jpg">
-        <div id="texte3">
-          <p>Ce château Renaissance en brique et pierre conserve plusieurs éléments du Moyen-âge.
-            Les décors intérieurs ont été refaits en 1791 dans le goût néoclassique.
-            Il possède un magnifique parc français paysager ancien, établi d'après les préceptes de Bernard Palissy,
-            abritant
-            une réserve ornithologique naturelle.
-            De nos jours, le château est habité par les descendants d'une ancienne famille du Beauvaisis.
-            <br>
-            Le château, le parc et l'horloge se visitent tous les jours du <b>1er juillet au 30 septembre de 14 heures à
-              17 heures.</b>
-            <br>Fermeture hebdomadaire le mardi.
-            <br>
-            <b>Fermeture annuelle du 1er octobre au 31 mars.</b>
-            <br>
-            Ouverture les samedis dimanches et jours fériés du 1er avril au 30
-            juin.
-            <br><br>
-            Téléphone : +33 3 44 79 00 00<br>
-            <a href="http://www.chateau-troissereux.com/" target="_blank"><b>Site du Château</b></a><br>
-          </p>
+      <div class="coord">
+        <div id="adresse">
+          <u>Adresse :</u>
+          <br>Rue St-Pierre 60000 Beauvais
+          <br>Téléphone : 03 44 48 11 60<br><br>
+        </div>
+        <div class="map">
+          <iframe id="map" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Rue+Saint+Pierre,+Beauvais&amp;sll=49.432217,2.080986&amp;sspn=0.007033,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=Rue+Saint+Pierre,+60000+Beauvais,+Oise,+Picardie&amp;ll=49.432217,2.080986&amp;spn=0.014764,0.038581&amp;z=14&amp;iwloc=near&amp;output=embed" width="700" height="350"></iframe>
         </div>
       </div>
+
+      <hr class="seperateur">
+
+      <div id="chateau">
+        <article>
+          <h2>Le château de Troissereux</h2>
+          <p>Ce château Renaissance en brique et pierre conserve plusieurs éléments du Moyen-âge.<br>
+            Les décors intérieurs ont été refaits en 1791 dans le goût néoclassique.<br>
+            Il possède un magnifique parc français paysager ancien, établi d'après les préceptes de Bernard Palissy,
+            abritant une réserve ornithologique naturelle.<br>
+            De nos jours, le château est habité par les descendants d'une ancienne famille du Beauvaisis.
+            <br><br>
+            Le château, le parc et l'horloge se visitent tous les jours du 1er juillet au 30 septembre de 14 heures à 17 heures.
+            <br><br>
+            Ouverture les samedis, dimanches et jours fériés du 1er avril au 30 juin.
+            <br><br>
+            Fermeture hebdomadaire le mardi.
+            <br>
+            Fermeture annuelle du 1er octobre au 31 mars.
+            <br><br>
+            <b>Comment se rendre au Château de Troissereux</b><br><br>
+            À Beauvais, prendre immédiatement la direction Abbeville, Le Tréport.<br>
+            Dans Troissereux (7 kilomètres), prendre au feu à gauche, le château se trouve à 500 mètres.<br><br>
+            Téléphone : 03 44 79 00 00
+          </p>
+        </article>
+        <div id="imgchato">
+          <img src="Images/Tourisme/chateau.jpg">
+        </div>
+      </div>
+
     </div>
   </div>
   <!-------------- FIN CONTENU ---------------->
@@ -246,23 +172,24 @@
     <div class="contenu-footer">
       <p>
         <a href="index.html">Accueil</a> |
-        <a href="http://www.beauvaisis.fr/mentions-legales.html%22%3E"> Mentions légales</a> | 
-        <a href="http://www.beauvaisis.fr/communaute-agglomeration/nous-contacter.html%22%3ENous"> Contacter </a>
+        <a href="http://www.beauvaisis.fr/mentions-legales.html"> Mentions légales</a> |
+        <a href="http://www.beauvaisis.fr/communaute-agglomeration/nous-contacter.html">Nous Contacter </a>
       </p>
       <div class="footer-clean">
         <div class="mx-auto item social">
-          <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=140586622674265&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv8.0%2Fdialog%2Fshare%3Fredirect_uri%3Dhttp%253A%252F%252Fs7.addthis.com%252Fstatic%252Fthankyou.html%26display%3Dpopup%26href%3Dhttp%253A%252F%252Fwww.beauvaisis.fr%252Fla-politique-de-la-ville.html%2523.Y0HadkgZXPM.facebook%26client_id%3D140586622674265%26ret%3Dlogin&cancel_url=https%3A%2F%2Fs7.addthis.com%2Fstatic%2Fthankyou.html%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=fr_FR">
-          <i class="icon ion-social-facebook"></i></a>
-          <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.beauvaisis.fr%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Transports%20urbains%20Corolis%20-%20Beauvaisis.fr%20-%20Communaut%C3%A9%20d%27agglom%C3%A9ration%20du%20Beauvaisis%3A&url=http%3A%2F%2Fwww.beauvaisis.fr%2Ftransport%2Ftransports-urbains.html%23.Y0Ha0o7O2VA.twitter">
-          <i class="icon ion-social-twitter"></i></a>
-          <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttp%253A%252F%252Fwww.beauvaisis.fr%252Ftransport%252Ftransports-urbains.html%2523.Y0Hbm2tUV_0.linkedin%26title%3DTransports%2Burbains%2BCorolis%2B-%2BBeauvaisis.fr%2B-%2BCommunaut%25C3%25A9%2Bd%2527agglom%25C3%25A9ration%2Bdu%2BBeauvaisis%26ro%3Dfalse%26summary%3D%26source%3D">
-          <i class="icon ion-social-linkedin"></i></a>
+          <a
+                  href="https://www.facebook.com/beauvaisis" target="_blank">
+            <i class="icon ion-social-facebook"></i></a>
+          <a
+                  href="https://twitter.com/AggloBeauvaisis" target="_blank">
+            <i class="icon ion-social-twitter"></i></a>
+          <a
+                  href="https://www.linkedin.com/company/communaute-d-agglomeration-du-beauvaisis/" target="_blank">
+            <i class="icon ion-social-linkedin"></i></a>
         </div>
       </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>     
     </div>
-    </footer>
+  </footer>
   <!-------------- FIN FOOTER ---------------->
 </body>
 
