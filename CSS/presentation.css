@@ -7,22 +7,17 @@ h1 {
     border:2px solid black;
 }
 
-h3 {
-    background-color: #60a9e6;
-}
-
 #présentation {
     margin-left: 5%;
-    margin-top:2%;
-}
-
-#pres{
-    margin-bottom: 5%;
+    margin-top:5%;
+    display: flex;
+    align-items: center;
+    gap:20%;
 }
 
 #légende {
-    margin-left: 70%;
-    margin-top: -30%;
+    display: flex;
+    flex-direction: column;
 }
 
 #info {
@@ -31,43 +26,57 @@ h3 {
 }
 
 @media screen and (max-width: 700px) {
-    #pres {
-        width: 100%;
+    h1{
+        font-size: 1.8em !important;
+    }
+
+    #présentation{
+        flex-wrap: wrap;
+    }
+
+    #pres{
+        width: 600px;
     }
 
     #légende{
-        margin-top: 0%;
-        margin-left: 0%;
+        padding-top:5%;
+        flex-direction: row;
+        justify-content: center;
     }
 
-    img{
+    .leg > img{
         width:100%;
     }
 
-    img.leg{
-        width:40% !important;
+    #commune{
+        width:100%;
     }
 
-    #titre{display: none;}
-
-    body{background-image: none;}
+    footer{
+        display: none !important;
+    }
 }
 
 @media (min-width : 700px) and (max-width: 1200px){
-    #pres {
-        width: 100%;
+    h1{
+        font-size: 1.8em !important;
+    }
+
+    #pres{
+        width: 800px;
+    }
+
+    #présentation{
+        flex-wrap: wrap;
     }
 
     #légende{
-        margin-top: 0%;
-        margin-left: 0%;
+        padding-top:5%;
+        flex-direction: row;
+        justify-content: center;
     }
 
-    img{
-        width:100%;
-    }
-
-    img.leg{
-        width:40% !important;
+    footer{
+        margin: 5% 0 0 0 !important;
     }
 }
