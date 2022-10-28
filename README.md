@@ -1,5 +1,4 @@
 # SAE S3.01 Développement d'une application
-## Refonte du site de l'agglomération du Beauvaisis
 #### Morgane BRETON 205 - Tony GUAN 205 - Jonatan LIN 206 - José MENDES PEREIRA 206
 
 ***
@@ -19,7 +18,7 @@ Refonte graphique et réarrangement du contenu du [site de l'agglomération du B
 
 * Framework [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 * Flexbox
-* Responsive
+* Media Queries
 
 ***
 
