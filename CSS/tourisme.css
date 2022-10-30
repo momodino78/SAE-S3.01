@@ -48,13 +48,6 @@ hr.seperateur{
 		font-size: 1.6em !important;
 	}
 
-	article{
-		margin-right:-10%;
-	}
-
-	#chateau>article{
-		margin-right: -20%;
-	}
 	#imgcathe,#imgchato,#map{display:none;}
 
 	footer{
