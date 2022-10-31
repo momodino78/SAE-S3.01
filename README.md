@@ -1,5 +1,5 @@
 # SAE S3.01 Développement d'une application
-#### Morgane BRETON 205 - Tony GUAN 205 - Jonatan LIN 206 - José MENDES PEREIRA 206
+#### Morgane B 205 - Tony G 205 - Jonatan L 206 - José MP 206
 
 ***
 
@@ -24,8 +24,8 @@ Refonte graphique et réarrangement du contenu du [site de l'agglomération du B
 
 ### Pages refaites
 
-* Page d'accueil - Morgane BRETON et Tony GUAN 205
-* Catégorie "L'agglomération" - Page "Présentation" - Jonatan LIN 206
-* Catégorie "Habiter" - Page "Transport" - José MENDES PEREIRA 206
-* Catégorie "Visiter" - Page "Culture" - Tony GUAN 205
-* Catégorie "Visiter" - Page "Sites touristiques" - Morgane BRETON 205
+* Page d'accueil - Morgane B et Tony G 205
+* Catégorie "L'agglomération" - Page "Présentation" - Jonatan L 206
+* Catégorie "Habiter" - Page "Transport" - José MP 206
+* Catégorie "Visiter" - Page "Culture" - Tony G 205
+* Catégorie "Visiter" - Page "Sites touristiques" - Morgane B 205
